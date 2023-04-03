@@ -10,15 +10,6 @@
 > 問題反饋：https://t.me/ddgksf2013_bot
 > 特别說明：本腳本僅供學習交流使用，禁止轉載售賣
  
-[rewrite_local]
-
-# ～ B站启动时开启直连模式（2022-085-11）@ddgksf2013
-^https?:\/\/app\.bilibili\.com\/x\/resource\/domain url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/bilibili_startup_direct.js
-
-[mitm] 
-
-hostname=api.bilibili.com
-
 ***********************************/
 
 //因为常常观看港澳台番剧后，B站连着外网，而我下次启动时，需要让其直连模式（主界面不同），有此需求，故写了一个简单脚本
