@@ -69,3 +69,4 @@ if ($request.url.indexOf(tubiao) != -1){
 
 
 $done({body : JSON.stringify(chxm1023)});
+
