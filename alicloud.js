@@ -91,14 +91,14 @@ function _0x297f(_0x1a96c4, _0x31305f) {
 let body = $response[_0x297f('‮0', 'mLy9')];
 if (body) {
     switch (!![]) {
-        case /business\/v1\.0\/users\/feature\/list/ [_0x297f('‫1', 'Ig6y')]($request['url']):
+        case /business/v1\.0/users/feature/list/ [_0x297f('‫1', 'Ig6y')]($request['url']):
             try {
                 body = body[_0x297f('‮2', 'V00m')](/intercept":true/g, 'intercept":false')['replace'](/name":"[^"]+"/g, 'name":"vip"');
             } catch (_0x61721f) {
                 console['log'](_0x297f('‫3', 'FBPR') + _0x61721f);
             }
             break;
-        case /v2\/databox\/get_personal_info/ ['test']($request[_0x297f('‫4', 'ZRTM')]):
+        case /v2/databox/get_personal_info/ ['test']($request[_0x297f('‫4', 'ZRTM')]):
             try {
                 let ddgksf2013 = JSON['parse'](body);
                 ddgksf2013['personal_rights_info'][_0x297f('‫5', 'RfHt')] = _0x297f('‫6', 'CNky');
@@ -108,7 +108,7 @@ if (body) {
                 console['log'](_0x297f('‮a', '*Is0') + _0x52f315);
             }
             break;
-        case /business\/v1\.0\/users\/vip\/info/ ['test']($request[_0x297f('‮b', 'Y7%2')]):
+        case /business/v1\.0/users/vip/info/ ['test']($request[_0x297f('‮b', 'Y7%2')]):
             try {
                 let ddgksf2013 = JSON[_0x297f('‫c', 'f$rt')](body);
                 ddgksf2013['identity'] = _0x297f('‮d', 'Y7%2');
@@ -126,7 +126,7 @@ if (body) {
                 console[_0x297f('‫14', '*Is0')]('widgets' + _0x501cef);
             }
             break;
-        case /member\.aliyundrive\.com\/v1\/users\/me/ [_0x297f('‮15', 'zbL%')]($request['url']):
+        case /member\.aliyundrive\.com/v1/users/me/ [_0x297f('‮15', 'zbL%')]($request['url']):
             try {
                 let ddgksf2013 = JSON[_0x297f('‫16', 'SrIX')](body);
                 ddgksf2013[_0x297f('‮17', 'I)1^')] = 'svip';
@@ -148,7 +148,7 @@ if (body) {
                 console['log']('widgets' + _0x5ecddd);
             }
             break;
-        case /apps\/v1\/users\/apps\/welcome/ [_0x297f('‫22', 'O$1a')]($request[_0x297f('‮23', 'QN^Q')]):
+        case /apps/v1/users/apps/welcome/ [_0x297f('‫22', 'O$1a')]($request[_0x297f('‮23', 'QN^Q')]):
             try {
                 let ddgksf2013 = {
                     'title': _0x297f('‮24', '9yx('),
@@ -160,7 +160,7 @@ if (body) {
                 console[_0x297f('‮27', 'J*P3')]('widgets' + _0x1fce0d);
             }
             break;
-        case /business\/v1\/users\/me\/vip\/info/ [_0x297f('‮28', 'J*P3')]($request['url']):
+        case /business/v1/users/me/vip/info/ [_0x297f('‮28', 'J*P3')]($request['url']):
             try {
                 let ddgksf2013 = {
                     'rightButtonText': 'SVIP',
@@ -175,7 +175,7 @@ if (body) {
                 console[_0x297f('‮2a', '#Jkb')]('widgets' + _0x28ec1f);
             }
             break;
-        case /v1\/users\/tools/ [_0x297f('‮2b', 'Fk(f')]($request[_0x297f('‮2c', 'Gm3C')]):
+        case /v1/users/tools/ [_0x297f('‮2b', 'Fk(f')]($request[_0x297f('‮2c', 'Gm3C')]):
             try {
                 let ddgksf2013 = JSON['parse'](body);
                 ddgksf2013['result'][_0x297f('‮2d', 'ZRTM')] = ddgksf2013['result'][_0x297f('‫2e', '*Is0')][_0x297f('‮2f', 'KrAG')](_0x59b208 => !(_0x297f('‮30', '9yx(') == _0x59b208['id']));
