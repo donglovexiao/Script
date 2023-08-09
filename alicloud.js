@@ -1,198 +1,322 @@
-var _0xods = 'jsjiami.com.v6',
-    _0xods_ = ['‮_0xods'],
-    _0x5994 = [_0xods, 'V8K4wpJvAg==', 'wrhuwrMd', 'wrDDpBPotpnnuJbkvqHlkLg=', 'w4PCrT/Cv8Kq', 'wrwGw6gS', 'SWgzw5AzPMKNSsOXw5rCocKUS1Qfw7PCjxvCjxlXMyp1w7xKPHfDicKXwpUcIcOJw4svw5rCjMO7wrnCsMOaLMKGwrvCh8KbwrRVwrPDtMKHJ2LDjRTDgcK0QjfDssKRHWRMw4/Ck8K9EzvDpw/DgzHCicO7w5QTF8KdLsOywrHCljzCpsK9RHU=', 'w4XClcKTL1k2w6MewoXCuMKFwqjDrMKKwrvCi3PCv8Kdw7BrfMOIBcOmwrrCjSnDjEXDsGLCiErCpnXDu2zCs8O3wpfCu8OHwrfChizCjcOqDRnChTPCmiTCiMKgBmfCpjrDml7CjUrDqFLDjDnDpMKIw7vCuB9Rw7gewrjDl1TCr8OWKMKdw4RRw5LDpsKjw5pH', 'NcKebsKLwokBdsOkFQ==', 'c8KaYg==', 'wpMeP3s=', 'UxXDjFPDqQ==', 'LG1ZBcO3wosBwolXVhnCgWbCg8OMRsKkwrU=', 'ZCTDu8OzwoXCp8KoQMKbw7/DhsOsJ8OKw7kKw7soeAN5CMK1wqEiw4HDm8OUw5fDnGwYw4p7w71GEHYNbcO2w7lfOxU6LyTCt8OTSG50w5o3PhbCrX8TQsKQwobDu8Osw5VBP8KmNj/CrcKIw6HDs8OKV3DDsU1GVREgMkXCg8OtVQcPw4s=', 'w5Jvw7RqQT5Uw5NN', 'w4HCjsKA', 'HgJpwrDCo25l', 'w43DlsOrwpo=', 'w5TCjsOR', 'bcKQdsK1w4fCsw==', 'IGtADsOkwpAGwohbVQ==', 'JWzDu8Oiwq/CmxgR', 'NcKDe8KMwq4I', 'VsK4w5jDqA==', 'HBlh', '56af5L+e5b6Y5puJ55+d5Lih77yn', '5aKJ6bGg56Sa5oCI5b6D5piI556e5LuL776x', 'w7ZmEcKtwo0vw5XCtUs=', 'w7oJw7Q=', 'w6IDw6AE', 'wrRBBsKa', 'cMOnSQ==', 'CnXDnzA=', 'eSLDow==', 'JS7DsX8Iw6fDnMK1w5cqJA==', 'fMKaaMKtw4TCqTfDk0V7wpQ=', 'w6XDkQXCuUjCnw==', 'wrHDnz3CosKjw6Be', 'URHDjVXDoMOP', 'wq3CrUbCo8K0H2xnwpc=', 'wqrDu8KAwprCmcOrw4d4Zg==', 'w4EPJQ==', 'IMO0CMOr', 'fXvCqMOd', 'U3k3w4whZcOH', 'UWDDjF7DiFJv', 'MzPDsA==', 'O2XDjMOcwqXClA==', 'EsOpw4w=', 'LhjCgwo=', 'B8K1EMOx', 'w45YdcKcw6HCpMKcwphf', 'aMKcYcKnw47CsxA=', 'wr5qwrY=', 'MAjsjiaWmiTkS.comf.vAbS6ebyJ=='];
-if (function(_0x512f58, _0x331dd8, _0x247d4d) {
-    function _0x31737a(_0x330b82, _0x41f595, _0x23d65a, _0xb86c7b, _0x36e56c, _0x5d3572) {
-        _0x41f595 = _0x41f595 >> 0x8, _0x36e56c = 'po';
-        var _0x5aba09 = 'shift',
-            _0xe8ef0e = 'push',
-            _0x5d3572 = '‮';
-        if (_0x41f595 < _0x330b82) {
-            while (--_0x330b82) {
-                _0xb86c7b = _0x512f58[_0x5aba09]();
-                if (_0x41f595 === _0x330b82 && _0x5d3572 === '‮' && _0x5d3572['length'] === 0x1) {
-                    _0x41f595 = _0xb86c7b, _0x23d65a = _0x512f58[_0x36e56c + 'p']();
-                } else if (_0x41f595 && _0x23d65a['replace'](/[MAWTkSfAbSebyJ=]/g, '') === _0x41f595) {
-                    _0x512f58[_0xe8ef0e](_0xb86c7b);
-                }
-            }
-            _0x512f58[_0xe8ef0e](_0x512f58[_0x5aba09]());
-        }
-        return 0x12456e;
-    };
-    return _0x31737a(++_0x331dd8, _0x247d4d) >> _0x331dd8 ^ _0x247d4d;
-}(_0x5994, 0xc8, 0xc800), _0x5994) {
-    _0xods_ = _0x5994['length'] ^ 0xc8;
-};
+function ENV() {
+  const e = "function" == typeof require && "undefined" != typeof $jsbox;
+  return {
+    isQX: "undefined" != typeof $task,
+    isLoon: "undefined" != typeof $loon,
+    isSurge: "undefined" != typeof $httpClient && "undefined" == typeof $loon,
+    isBrowser: "undefined" != typeof document,
+    isNode: "function" == typeof require && !e,
+    isJSBox: e,
+    isRequest: "undefined" != typeof $request,
+    isScriptable: "undefined" != typeof importModule,
+  };
+}
+function HTTP(e = { baseURL: "" }) {
+  function t(t, a) {
+    a = "string" == typeof a ? { url: a } : a;
+    const h = e.baseURL;
+    h && !d.test(a.url || "") && (a.url = h ? h + a.url : a.url),
+      a.body &&
+        a.headers &&
+        !a.headers["Content-Type"] &&
+        (a.headers["Content-Type"] = "application/x-www-form-urlencoded"),
+      (a = { ...e, ...a });
+    const c = a.timeout,
+      l = {
+        onRequest: () => {},
+        onResponse: (e) => e,
+        onTimeout: () => {},
+        ...a.events,
+      };
+    let f, y;
+    if ((l.onRequest(t, a), s)) f = $task.fetch({ method: t, ...a });
+    else if (o || n)
+      f = new Promise((e, s) => {
+        $httpClient[t.toLowerCase()](a, (t, o, n) => {
+          t
+            ? s(t)
+            : e({
+                statusCode: o.status || o.statusCode,
+                headers: o.headers,
+                body: n,
+              });
+        });
+      });
+    else if (r) {
+      const e = require("got"),
+        s = require("iconv-lite");
+      f = new Promise((o, n) => {
+        e[t.toLowerCase()](a)
+          .then((e) =>
+            o({
+              statusCode: e.statusCode,
+              headers: e.headers,
+              body: s.decode(e.rawBody, "utf-8"),
+            })
+          )
+          .catch(n);
+      });
+    } else if (i) {
+      const e = new Request(a.url);
+      (e.method = t),
+        (e.headers = a.headers),
+        (e.body = a.body),
+        (f = new Promise((t, s) => {
+          e.loadString()
+            .then((s) => {
+              t({
+                statusCode: e.response.statusCode,
+                headers: e.response.headers,
+                body: s,
+              });
+            })
+            .catch((e) => s(e));
+        }));
+    } else
+      u &&
+        (f = new Promise((e, s) => {
+          fetch(a.url, { method: t, headers: a.headers, body: a.body })
+            .then((e) => e.json())
+            .then((t) =>
+              e({ statusCode: t.status, headers: t.headers, body: t.data })
+            )
+            .catch(s);
+        }));
+    const p = c
+      ? new Promise((e, s) => {
+          y = setTimeout(
+            () => (
+              l.onTimeout(), s(`${t}URL:${a.url}exceeds the timeout ${c}ms`)
+            ),
+            c
+          );
+        })
+      : null;
+    return (
+      p ? Promise.race([p, f]).then((e) => (clearTimeout(y), e)) : f
+    ).then((e) => l.onResponse(e));
+  }
+  const {
+      isQX: s,
+      isLoon: o,
+      isSurge: n,
+      isScriptable: i,
+      isNode: r,
+      isBrowser: u,
+    } = ENV(),
+    a = ["GET", "POST", "PUT", "DELETE", "HEAD", "OPTIONS", "PATCH"],
+    d =
+      /https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)/,
+    h = {};
+  return a.forEach((e) => (h[e.toLowerCase()] = (s) => t(e, s))), h;
+}
+function API(e = "untitled", t = !1) {
+  const {
+    isQX: s,
+    isLoon: o,
+    isSurge: n,
+    isNode: i,
+    isJSBox: r,
+    isScriptable: u,
+  } = ENV();
+  return new (class {
+    constructor(e, t) {
+      (this.name = e),
+        (this.debug = t),
+        (this.http = HTTP()),
+        (this.env = ENV()),
+        (this.node = (() => {
+          if (i) {
+            const e = require("fs");
+            return { fs: e };
+          }
+          return null;
+        })()),
+        this.initCache();
+      const s = (e, t) =>
+        new Promise(function (s) {
+          setTimeout(s.bind(null, t), e);
+        });
+      Promise.prototype.delay = function (e) {
+        return this.then(function (t) {
+          return s(e, t);
+        });
+      };
+    }
+    initCache() {
+      if (
+        (s && (this.cache = JSON.parse($prefs.valueForKey(this.name) || "{}")),
+        (o || n) &&
+          (this.cache = JSON.parse($persistentStore.read(this.name) || "{}")),
+        i)
+      ) {
+        let e = "root.json";
+        this.node.fs.existsSync(e) ||
+          this.node.fs.writeFileSync(
+            e,
+            JSON.stringify({}),
+            { flag: "wx" },
+            (e) => console.log(e)
+          ),
+          (this.root = {}),
+          (e = `${this.name}.json`),
+          this.node.fs.existsSync(e)
+            ? (this.cache = JSON.parse(
+                this.node.fs.readFileSync(`${this.name}.json`)
+              ))
+            : (this.node.fs.writeFileSync(
+                e,
+                JSON.stringify({}),
+                { flag: "wx" },
+                (e) => console.log(e)
+              ),
+              (this.cache = {}));
+      }
+    }
+    persistCache() {
+      const e = JSON.stringify(this.cache, null, 2);
+      s && $prefs.setValueForKey(e, this.name),
+        (o || n) && $persistentStore.write(e, this.name),
+        i &&
+          (this.node.fs.writeFileSync(
+            `${this.name}.json`,
+            e,
+            { flag: "w" },
+            (e) => console.log(e)
+          ),
+          this.node.fs.writeFileSync(
+            "root.json",
+            JSON.stringify(this.root, null, 2),
+            { flag: "w" },
+            (e) => console.log(e)
+          ));
+    }
+    write(e, t) {
+      if ((this.log(`SET ${t}`), -1 !== t.indexOf("#"))) {
+        if (((t = t.substr(1)), n || o)) return $persistentStore.write(e, t);
+        if (s) return $prefs.setValueForKey(e, t);
+        i && (this.root[t] = e);
+      } else this.cache[t] = e;
+      this.persistCache();
+    }
+    read(e) {
+      return (
+        this.log(`READ ${e}`),
+        -1 === e.indexOf("#")
+          ? this.cache[e]
+          : ((e = e.substr(1)),
+            n || o
+              ? $persistentStore.read(e)
+              : s
+              ? $prefs.valueForKey(e)
+              : i
+              ? this.root[e]
+              : void 0)
+      );
+    }
+    delete(e) {
+      if ((this.log(`DELETE ${e}`), -1 !== e.indexOf("#"))) {
+        if (((e = e.substr(1)), n || o)) return $persistentStore.write(null, e);
+        if (s) return $prefs.removeValueForKey(e);
+        i && delete this.root[e];
+      } else delete this.cache[e];
+      this.persistCache();
+    }
+    notify(e, t = "", a = "", d = {}) {
+      const h = d["open-url"],
+        c = d["media-url"];
+      if (
+        (s && $notify(e, t, a, d),
+        n &&
+          $notification.post(e, t, a + `${c ? "\n多媒体:" + c : ""}`, {
+            url: h,
+          }),
+        o)
+      ) {
+        let s = {};
+        h && (s.openUrl = h),
+          c && (s.mediaUrl = c),
+          "{}" === JSON.stringify(s)
+            ? $notification.post(e, t, a)
+            : $notification.post(e, t, a, s);
+      }
+      if (i || u) {
+        const s = a + (h ? `\n点击跳转:${h}` : "") + (c ? `\n多媒体:${c}` : "");
+        if (r) {
+          const o = require("push");
+          o.schedule({ title: e, body: (t ? t + "\n" : "") + s });
+        } else console.log(`${e}\n${t}\n${s}\n\n`);
+      }
+    }
+    log(e) {
+      this.debug && console.log(`[${this.name}]LOG:${this.stringify(e)}`);
+    }
+    info(e) {
+      console.log(`[${this.name}]INFO:${this.stringify(e)}`);
+    }
+    error(e) {
+      console.log(`[${this.name}]ERROR:${this.stringify(e)}`);
+    }
+    wait(e) {
+      return new Promise((t) => setTimeout(t, e));
+    }
+    done(e = {}) {
+      s || o || n
+        ? $done(e)
+        : i &&
+          !r &&
+          "undefined" != typeof $context &&
+          (($context.headers = e.headers),
+          ($context.statusCode = e.statusCode),
+          ($context.body = e.body));
+    }
+    stringify(e) {
+      if ("string" == typeof e || e instanceof String) return e;
+      try {
+        return JSON.stringify(e, null, 2);
+      } catch (e) {
+        return "[object Object]";
+      }
+    }
+  })(e, t);
+}
+function getGoneDay(n = 0, yearFlag = true) {
+  let myDate = new Date();
+  myDate.setDate(myDate.getDate() - n);
+  let month = myDate.getMonth() + 1;
+  let day = myDate.getDate();
+  let result =
+    "" +
+    (yearFlag ? myDate.getFullYear() : "") +
+    "/" +
+    (month < 10 ? "0" + month : month) +
+    "/" +
+    (day < 10 ? "0" + day : day);
+  return result;
+}
+var obj = JSON.parse($response.body);
+var $XiaoMaoSvip = "";
+var appName = `XiaoMao-ALiCloudvip`;
+var XiaoMaoSvip = "";
+let XiaoMaoEndTime = null;
+let ALiCloudSpace = 0;
+let ALiCloudIcon = 0;
+let AliLink = 0;
+!(async () => {
+  await XiaoMaoFunction();
+})()
+  .catch((err) => {
+    $XiaoMaoSvip.error(err);
+    setTimeout(() => {
+      $XiaoMaoSvip.done();
+    }, 3000);
+  })
+  .finally(() => {
+    console.log(appName + "设置成功");
+    setTimeout(() => {
+      $XiaoMaoSvip.done();
+    }, 5000);
+  });
 
-function _0x297f(_0x1a96c4, _0x31305f) {
-    _0x1a96c4 = ~~'0x' ['concat'](_0x1a96c4['slice'](0x1));
-    var _0x277e51 = _0x5994[_0x1a96c4];
-    if (_0x297f['EtwOTt'] === undefined) {
-        (function() {
-            var _0x53fea9 = typeof window !== 'undefined' ? window : typeof process === 'object' && typeof require === 'function' && typeof global === 'object' ? global : this;
-            var _0x5777d5 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
-            _0x53fea9['atob'] || (_0x53fea9['atob'] = function(_0x393f69) {
-                var _0x5e8cf6 = String(_0x393f69)['replace'](/=+$/, '');
-                for (var _0x1c49dc = 0x0, _0x4e0e1f, _0x15d919, _0x754b55 = 0x0, _0x2b9e4b = ''; _0x15d919 = _0x5e8cf6['charAt'](_0x754b55++); ~_0x15d919 && (_0x4e0e1f = _0x1c49dc % 0x4 ? _0x4e0e1f * 0x40 + _0x15d919 : _0x15d919, _0x1c49dc++ % 0x4) ? _0x2b9e4b += String['fromCharCode'](0xff & _0x4e0e1f >> (-0x2 * _0x1c49dc & 0x6)) : 0x0) {
-                    _0x15d919 = _0x5777d5['indexOf'](_0x15d919);
-                }
-                return _0x2b9e4b;
-            });
-        }());
 
-        function _0x38c0ea(_0x446f22, _0x31305f) {
-            var _0x32d6ba = [],
-                _0xe063fc = 0x0,
-                _0xf89475, _0x4e4bdd = '',
-                _0x3013e5 = '';
-            _0x446f22 = atob(_0x446f22);
-            for (var _0x342114 = 0x0, _0x5b5eec = _0x446f22['length']; _0x342114 < _0x5b5eec; _0x342114++) {
-                _0x3013e5 += '%' + ('00' + _0x446f22['charCodeAt'](_0x342114)['toString'](0x10))['slice'](-0x2);
-            }
-            _0x446f22 = decodeURIComponent(_0x3013e5);
-            for (var _0x13ecb6 = 0x0; _0x13ecb6 < 0x100; _0x13ecb6++) {
-                _0x32d6ba[_0x13ecb6] = _0x13ecb6;
-            }
-            for (_0x13ecb6 = 0x0; _0x13ecb6 < 0x100; _0x13ecb6++) {
-                _0xe063fc = (_0xe063fc + _0x32d6ba[_0x13ecb6] + _0x31305f['charCodeAt'](_0x13ecb6 % _0x31305f['length'])) % 0x100;
-                _0xf89475 = _0x32d6ba[_0x13ecb6];
-                _0x32d6ba[_0x13ecb6] = _0x32d6ba[_0xe063fc];
-                _0x32d6ba[_0xe063fc] = _0xf89475;
-            }
-            _0x13ecb6 = 0x0;
-            _0xe063fc = 0x0;
-            for (var _0x177ff7 = 0x0; _0x177ff7 < _0x446f22['length']; _0x177ff7++) {
-                _0x13ecb6 = (_0x13ecb6 + 0x1) % 0x100;
-                _0xe063fc = (_0xe063fc + _0x32d6ba[_0x13ecb6]) % 0x100;
-                _0xf89475 = _0x32d6ba[_0x13ecb6];
-                _0x32d6ba[_0x13ecb6] = _0x32d6ba[_0xe063fc];
-                _0x32d6ba[_0xe063fc] = _0xf89475;
-                _0x4e4bdd += String['fromCharCode'](_0x446f22['charCodeAt'](_0x177ff7) ^ _0x32d6ba[(_0x32d6ba[_0x13ecb6] + _0x32d6ba[_0xe063fc]) % 0x100]);
-            }
-            return _0x4e4bdd;
-        }
-        _0x297f['zUbPLj'] = _0x38c0ea;
-        _0x297f['MclJnS'] = {};
-        _0x297f['EtwOTt'] = !![];
-    }
-    var _0x18ce2b = _0x297f['MclJnS'][_0x1a96c4];
-    if (_0x18ce2b === undefined) {
-        if (_0x297f['mSxunh'] === undefined) {
-            _0x297f['mSxunh'] = !![];
-        }
-        _0x277e51 = _0x297f['zUbPLj'](_0x277e51, _0x31305f);
-        _0x297f['MclJnS'][_0x1a96c4] = _0x277e51;
-    } else {
-        _0x277e51 = _0x18ce2b;
-    }
-    return _0x277e51;
-};
-let body = $response[_0x297f('‮0', 'mLy9')];
-if (body) {
-    switch (!![]) {
-        case /business\/v1\.0\/users\/feature\/list/ [_0x297f('‫1', 'Ig6y')]($request['url']):
-            try {
-                body = body[_0x297f('‮2', 'V00m')](/intercept":true/g, 'intercept":false')['replace'](/name":"[^"]+"/g, 'name":"vip"');
-            } catch (_0x61721f) {
-                console['log'](_0x297f('‫3', 'FBPR') + _0x61721f);
-            }
-            break;
-        case /v2\/databox\/get_personal_info/ ['test']($request[_0x297f('‫4', 'ZRTM')]):
-            try {
-                let ddgksf2013 = JSON['parse'](body);
-                ddgksf2013['personal_rights_info'][_0x297f('‫5', 'RfHt')] = _0x297f('‫6', 'CNky');
-                ddgksf2013['personal_rights_info'][_0x297f('‫7', '%o@@')] = _0x297f('‫8', 'gS#e');
-                body = JSON[_0x297f('‮9', '^rcZ')](ddgksf2013);
-            } catch (_0x52f315) {
-                console['log'](_0x297f('‮a', '*Is0') + _0x52f315);
-            }
-            break;
-        case /business\/v1\.0\/users\/vip\/info/ ['test']($request[_0x297f('‮b', 'Y7%2')]):
-            try {
-                let ddgksf2013 = JSON[_0x297f('‫c', 'f$rt')](body);
-                ddgksf2013['identity'] = _0x297f('‮d', 'Y7%2');
-                ddgksf2013['vipList'] = [{
-                    'name': _0x297f('‮e', 'o!*7'),
-                    'code': 'svip.8t',
-                    'promotedAt': 0x63dda34d,
-                    'expire': 0xee898999
-                }];
-                ddgksf2013[_0x297f('‮f', 'Qw^6')] = '8t';
-                ddgksf2013[_0x297f('‫10', 'qD1F')] = _0x297f('‫11', 'V00m');
-                ddgksf2013['mediumIcon'] = _0x297f('‮12', 'ERAo');
-                body = JSON[_0x297f('‮13', 'KXl$')](ddgksf2013);
-            } catch (_0x501cef) {
-                console[_0x297f('‫14', '*Is0')]('widgets' + _0x501cef);
-            }
-            break;
-        case /member\.aliyundrive\.com\/v1\/users\/me/ [_0x297f('‮15', 'zbL%')]($request['url']):
-            try {
-                let ddgksf2013 = JSON[_0x297f('‫16', 'SrIX')](body);
-                ddgksf2013[_0x297f('‮17', 'I)1^')] = 'svip';
-                ddgksf2013['membershipIcon'] = _0x297f('‫18', 'Gm3C');
-                body = JSON[_0x297f('‫19', 'HmC&')](ddgksf2013);
-            } catch (_0x1127ec) {
-                console[_0x297f('‫1a', 'ERAo')](_0x297f('‫1b', 'QN^Q') + _0x1127ec);
-            }
-            break;
-        case /widgets/ [_0x297f('‫1c', '06BY')]($request[_0x297f('‮1d', '2OkU')]):
-            try {
-                let ddgksf2013 = JSON['parse'](body);
-                if (ddgksf2013[_0x297f('‮1e', '*Is0')]) {}
-                if (ddgksf2013[_0x297f('‮1f', 'I)1^')]) {}
-                if (ddgksf2013[_0x297f('‮20', 'RfHt')]) {}
-                if (ddgksf2013[_0x297f('‮21', 'KXl$')]) {}
-                body = JSON['stringify'](ddgksf2013);
-            } catch (_0x5ecddd) {
-                console['log']('widgets' + _0x5ecddd);
-            }
-            break;
-        case /apps\/v1\/users\/apps\/welcome/ [_0x297f('‫22', 'O$1a')]($request[_0x297f('‮23', 'QN^Q')]):
-            try {
-                let ddgksf2013 = {
-                    'title': _0x297f('‮24', '9yx('),
-                    'emojis': [],
-                    'description': _0x297f('‮25', 'V00m')
-                };
-                body = JSON[_0x297f('‮26', 'Ojrx')](ddgksf2013);
-            } catch (_0x1fce0d) {
-                console[_0x297f('‮27', 'J*P3')]('widgets' + _0x1fce0d);
-            }
-            break;
-        case /business\/v1\/users\/me\/vip\/info/ [_0x297f('‮28', 'J*P3')]($request['url']):
-            try {
-                let ddgksf2013 = {
-                    'rightButtonText': 'SVIP',
-                    'identity': _0x297f('‫29', 'JBsY'),
-                    'level': '8t',
-                    'titleNotice': null,
-                    'titleImage': 'https://gw.alicdn.com/imgextra/i1/O1CN01Z2Yv4u1jrJ5S5TYpo_!!6000000004601-2-tps-216-60.png',
-                    'description': '有效期至2096/10/25'
-                };
-                body = JSON['stringify'](ddgksf2013);
-            } catch (_0x28ec1f) {
-                console[_0x297f('‮2a', '#Jkb')]('widgets' + _0x28ec1f);
-            }
-            break;
-        case /v1\/users\/tools/ [_0x297f('‮2b', 'Fk(f')]($request[_0x297f('‮2c', 'Gm3C')]):
-            try {
-                let ddgksf2013 = JSON['parse'](body);
-                ddgksf2013['result'][_0x297f('‮2d', 'ZRTM')] = ddgksf2013['result'][_0x297f('‫2e', '*Is0')][_0x297f('‮2f', 'KrAG')](_0x59b208 => !(_0x297f('‮30', '9yx(') == _0x59b208['id']));
-                ddgksf2013[_0x297f('‫31', 'SrIX')][_0x297f('‫32', 'TYCK')] = {};
-                body = JSON[_0x297f('‫33', 'VAFu')](ddgksf2013);
-            } catch (_0x22a29b) {
-                console[_0x297f('‮34', 'C@IM')]('widgets' + _0x22a29b);
-            }
-            break;
-        default:
-            $done({});
-            break;
-    }
-    $done({
-        'body': body
-    });
-} else {
-    $done({});
-};
-_0xods = 'jsjiami.com.v6';
+function XiaoMaoFunction(){$XiaoMaoSvip=API("XiaoMao");if($XiaoMaoSvip.read("ALiCloudVipYear")&&$XiaoMaoSvip.read("ALiCloudVipMonth")&&$XiaoMaoSvip.read("ALiCloudVipDay")){SvipDate=new Date($XiaoMaoSvip.read("ALiCloudVipYear")+"/"+$XiaoMaoSvip.read("ALiCloudVipMonth")+"/"+$XiaoMaoSvip.read("ALiCloudVipDay")).getTime();if(!SvipDate){$XiaoMaoSvip.notify(appName,"","会员日期设置错误，请输入正确的日期范围!");XiaoMaoSvip=getGoneDay(-7)}else{XiaoMaoSvip=$XiaoMaoSvip.read("ALiCloudVipYear")+"/"+$XiaoMaoSvip.read("ALiCloudVipMonth")+"/"+$XiaoMaoSvip.read("ALiCloudVipDay")}}else{XiaoMaoSvip=getGoneDay(-7)}if($XiaoMaoSvip.read("ALiCloudSpace")){ALiCloudSpace=parseInt(parseInt($XiaoMaoSvip.read("ALiCloudSpace"))*1024*1024*1024*1024)}if($XiaoMaoSvip.read("ALiCloudIcon")){ALiCloudIcon=parseInt($XiaoMaoSvip.read("ALiCloudIcon"))}if($XiaoMaoSvip.read("ALiCloudLink")){AliLink=parseInt($XiaoMaoSvip.read("ALiCloudLink"))?1:0}XiaoMaoEndTime=new Date(XiaoMaoSvip).getTime()/1000}if($response.body){let requestUrl=$request.url;if(/^https:\/\/api\.(aliyundrive|alipan)\.com\/apps\/v1\/users\/apps\/welcome?/.test(requestUrl)){obj.hasOwnProperty("description")?(obj.description="XiaoMao"):""}else if(/^https:\/\/api\.(aliyundrive|alipan)\.com\/v2\/databox\/get_personal_info?/.test(requestUrl)){let privileges=[{feature_id:"download",feature_attr_id:"speed_limit",quota:-1},{feature_id:"drive",feature_attr_id:"size_limit",quota:107374182400,},{feature_id:"safe_box",feature_attr_id:"size_limit",quota:53687091200,},{feature_id:"upload",feature_attr_id:"size_limit",quota:2199023255552,},{feature_id:"video",feature_attr_id:"backup",quota:1},{feature_id:"video",feature_attr_id:"clarity_limit",quota:3},];obj.hasOwnProperty("personal_rights_info")?((obj.personal_rights_info.is_expires=false),(obj.personal_rights_info.privileges=privileges),(obj.personal_rights_info.spu_id="svip"),(obj.personal_rights_info.name="超级会员")):"";obj.hasOwnProperty("personal_space_info")&&ALiCloudSpace!=0?(obj.personal_space_info.total_size=ALiCloudSpace):""}else if(/^https:\/\/api\.(aliyundrive|alipan)\.com\/business\/v1.0\/users\/vip\/info?/.test(requestUrl)){let vipList=[{code:"svip",promotedAt:1660233280,expire:XiaoMaoEndTime,name:"超级会员",},{code:"svip.8t",promotedAt:1680970202,expire:XiaoMaoEndTime,name:"8TB超级会员",},];obj.hasOwnProperty("status")?(obj.status="normal"):"";obj.hasOwnProperty("identity")?(obj.identity="svip"):"";obj.hasOwnProperty("level")?(obj.level="8t"):"";obj.hasOwnProperty("vipList")?(obj.vipList=vipList):""}else if(/^https:\/\/member\.(aliyundrive|alipan)\.com\/v1\/users\/tools?/.test(requestUrl)){let moreToolsList=[];obj.hasOwnProperty("result")?(delete obj.result.guideInfo,obj.result.commonTools.forEach((el)=>{el.profitDesc=null;el.version=null}),obj.result.moreTools.forEach((el)=>{if(el.name!="好运瓶"&&el.name!="达人中心"&&el.name!="帮助与反馈"){el.profitDesc=null;el.version=null;moreToolsList.push(el)}}),(obj.result.moreTools=moreToolsList),ALiCloudIcon==1?((obj.result.moreTools=moreToolsList.concat(obj.result.commonTools)),(obj.result.commonTools=[])):""):""}else if(/^https:\/\/api\.(aliyundrive|alipan)\.com\/business\/v1\/users\/me\/vip\/info?/.test(requestUrl)){let vipInfoObj={rightButtonText:"SVIP",identity:"svip",level:"8t",titleNotice:"第一股东",titleImage:"https://gw.alicdn.com/imgextra/i1/O1CN01Z2Yv4u1jrJ5S5TYpo_!!6000000004601-2-tps-216-60.png",description:"终身会员-铭牌：No.01",};obj=vipInfoObj}else if(/^https:\/\/api\.(aliyundrive|alipan)\.com\/business\/v1.1\/users\/me\/vip\/info?/.test(requestUrl)){obj.description="";obj.titleNotice="";obj.activityAction="";obj.rightButtonText="第一股东";obj.activityText="";obj.identity="svip"}else if(/^https:\/\/api\.(aliyundrive|alipan)\.com\/adrive\/v2\/user\/get?/.test(requestUrl)){obj.hasOwnProperty("vip_identity")?(obj.vip_identity="svip"):"";obj.hasOwnProperty("role")?(obj.role="administrator"):"";obj.hasOwnProperty("expired_at")?(obj.expired_at=XiaoMaoEndTime):""}else if(/^https:\/\/api\.(aliyundrive|alipan)\.com\/business\/v1.0\/users\/feature\/list?/.test(requestUrl)){obj.hasOwnProperty("identity")?(obj.identity="svip"):"";if(obj.features.length){obj.features.forEach((el)=>{el.trialStatus="allowTrial";el.intercept=false;el.name="大佬尊享";if(el.hasOwnProperty("features")&&el.features.length){el.features.forEach((kid)=>{kid.trialStatus="allowTrial";kid.intercept=false;kid.name="大佬尊享"})}})}}else if(/^https:\/\/api\.(aliyundrive|alipan)\.com\/business\/v1.0\/users\/feature\/trial?/.test(requestUrl)){obj.trialStartTime=new Date(getGoneDay(-100)).getTime()/1000;obj.trialDuration=20000000;obj.trialStatus="onTrial"}else if(/^https:\/\/api\.(aliyundrive|alipan)\.com\/apps\/v1\/users\/home\/widgets?/.test(requestUrl)){obj.hasOwnProperty("coreFeatures")?(obj.coreFeatures.items=[]):"";obj.hasOwnProperty("activities")?delete obj.activities:"";obj.hasOwnProperty("recentSaved")?(obj.recentSaved={items:obj.recentSaved.items}):"";obj.hasOwnProperty("signIn")?(obj.signIn.description="大佬您好"):""}else if(/^https:\/\/api\.(aliyundrive|alipan)\.com\/adrive\/v1\/app\/logos?/.test(requestUrl)){if(obj.items&&obj.items.length){obj.items.forEach((el)=>{el.labelText="已获得";el.labelCode="acquired"})}}else if(/^https:\/\/api\.(aliyundrive|alipan)\.com\/v2\/file\/get_video_preview_play_info?/.test(requestUrl)){if(obj.video_preview_play_info.live_transcoding_task_list.length){let videoUrl=obj.video_preview_play_info.live_transcoding_task_list[0].url;obj.video_preview_play_info.live_transcoding_task_list.forEach((el,i)=>{if(i>0){el.url=videoUrl;el.status="finished"}});let resultText="已捕捉到当前视频源m3u8地址，请注意源链接仅为临时链接具有时效性且无法在线播放，仅可用于m3u8相关软件进行多线程下载。"+"\n\n"+"m3u8源地址："+"\n"+videoUrl;AliLink?$notify("🚨XiaoMao_阿里云盘","m3u8地址获取成功❗️",resultText):""}}else if(/^https:\/\/api\.(aliyundrive|alipan)\.com\/adrive\/v2\/batch?/.test(requestUrl)){delete obj.distributorCouponInfo}else if(/^https:\/\/member\.alipan\.com\/v2\/activity\/sign_in_info?/.test(requestUrl)){obj.result.blessing="大佬您好！";let list=[];if(obj.result.rewards.length){obj.result.rewards.forEach((el)=>{if(el.type!="vipDay"&&el.type!="dailyBuyVip"){list.push(el)}});obj.result.rewards=list}}else if(/^https:\/\/member\.aliyundrive\.com\/v2\/activity\/sign_in_list?/.test(requestUrl)){if(obj.result.signInInfos.length){obj.result.signInInfos.forEach((el)=>{if(el.rewards.length){let list=[];el.rewards.forEach((i)=>{if(i.type!="vipDay"&&i.type!="dailyBuyVip"){list.push(i)}});el.rewards=list}})}}else if(/^https:\/\/member\.alipan\.com\/v1\/users\/me?/.test(requestUrl)){obj.no=1}let FinishBody=JSON.stringify(obj);$done(FinishBody)}else{$done({})}
